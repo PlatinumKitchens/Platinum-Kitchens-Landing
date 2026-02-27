@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: #232323;
+    color: #ffffff;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    color: #D0B390;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #B6C1D0;
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    background-color: #D0B390;
+    color: #232323;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+}
+
+.btn-outline {
+    border: 1px solid #D0B390;
+    padding: 8px 20px;
+}
+
+.about, .contact-section {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+h2, h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #B6C1D0;
+    color: white;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #333;
+    color: #B6C1D0;
+}
